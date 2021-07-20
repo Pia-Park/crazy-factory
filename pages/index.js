@@ -15,17 +15,17 @@ export default function Home() {
         <div className={styles.main}>
           <div className={styles.nav}>
             <Link href="/">
-              <img src="/logo-black.png"></img>
+              <img src="/logo-white.png"></img>
             </Link>
             <div className={styles.menu}>
-              <Link href="/">ABOUT</Link>
-              <Link href="/">RECIPE</Link>
-              <Link href="/">CONTACT</Link>
+              <Link href="/"><div>ABOUT</div></Link>
+              <Link href="/"><div>RECIPE</div></Link>
+              <Link href="/"><div>CONTACT</div></Link>
             </div>
           </div>
           <div className={styles.bgimg}>
-            <div className={styles.bgtext}><b>MAKE YOU HAPPY CRAZY</b></div>
-            <img src="/bg.jpg"></img>
+            <div className={styles.bgtext}>MAKE YOU HAPPY CRAZY</div>
+            {/* <img src="/bg.jpg"></img> */}
           </div>
         </div>
       </main>
