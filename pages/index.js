@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import About from './about'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
               <img src="/logo-white.png"></img>
             </Link>
             <div className={styles.menu}>
-              <Link href="/"><div>ABOUT</div></Link>
+              <Link href="/about"><div>ABOUT</div></Link>
               <Link href="/"><div>RECIPE</div></Link>
               <Link href="/"><div>CONTACT</div></Link>
             </div>
@@ -29,6 +30,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <About id='about'/>
 
     </div>
   )

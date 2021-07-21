@@ -1,0 +1,33 @@
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.category{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.4rem;
+}
+
+.contentimg img:last-child{
+    display: none;
+}
+
+.contentimg:hover img:first-child{
+    display: none;
+}
+.contentimg:hover img:last-child{
+    display: inline-block;
+}
+
+.contentimg{
+    margin-top: 4rem;
+}
+
+.contenttxt{
+    text-align: center;
+    margin-top: 4rem;
+}

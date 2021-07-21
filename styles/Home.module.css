@@ -4,7 +4,7 @@
   width: 10vw;
   height: auto;
   object-fit: contain;
-  filter: brightness(0.4);
+  filter: brightness(0.1);
 }
 
 .nav img:hover{
@@ -18,11 +18,12 @@
   letter-spacing: 0.1rem;
   bottom: 0;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu div{
   padding-left: 3rem;
-  color: gray;
+  color: rgb(22, 22, 22);
 }
 
 .menu div:hover{
@@ -38,6 +39,7 @@
   height: 12vh;
   padding: 1rem;
   font-family: 'Open Sans Condensed', sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.2); */
 }
 
 
