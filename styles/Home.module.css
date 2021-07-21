@@ -4,7 +4,7 @@
   width: 10vw;
   height: auto;
   object-fit: contain;
-  filter: brightness(0.1);
+  filter: brightness(0.8);
 }
 
 .nav img:hover{
@@ -23,7 +23,7 @@
 
 .menu div{
   padding-left: 3rem;
-  color: rgb(22, 22, 22);
+  color: rgb(204, 204, 204);
 }
 
 .menu div:hover{
@@ -60,8 +60,8 @@
 .bgtext{
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
-  letter-spacing: 0.7rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.9rem;
   color: white;
 }
 
@@ -75,6 +75,31 @@
 
 }
 
+.search{
+  padding-top: 3rem;
+}
+
+.search input{
+  height: 3rem;
+  width: 30rem;
+  border: 0;
+  outline: none;
+  padding: 1rem;
+
+}
+
+.search button{
+  height: 3rem;
+  width: 6rem;
+  border: 0;
+  outline: none;
+  background-color: #453757;
+  color: white;
+}
+
+.search button:hover{
+  background-color: #332841;
+}
 
 
 @media (max-width: 600px) {

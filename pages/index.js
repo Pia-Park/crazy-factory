@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import About from './about'
+import Slide from './component/slider'
 
 export default function Home() {
   return (
@@ -25,13 +26,15 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.bgimg}>
+            {/* <Slide></Slide> */}
             <div className={styles.bgtext}>MAKE YOU HAPPY CRAZY</div>
-            {/* <img src="/bg.jpg"></img> */}
+            <div className={styles.search}>
+              <input type="search" placeholder="Search Recipe" />
+              <button>Search</button>
+            </div>
           </div>
         </div>
       </main>
-      <About id='about'/>
-
     </div>
   )
 }
