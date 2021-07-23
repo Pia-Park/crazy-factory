@@ -25,12 +25,21 @@ export default function Home() {
               <Link href="/"><div>CONTACT</div></Link>
             </div>
           </div>
-          <div className={styles.bgimg}>
-            {/* <Slide></Slide> */}
-            <div className={styles.bgtext}>MAKE YOU HAPPY CRAZY</div>
-            <div className={styles.search}>
-              <input type="search" placeholder="Search Recipe" />
-              <button>Search</button>
+          <div className={styles.hero1}>
+            <div className={styles.bgimg}>
+              <div className={styles.bgtext}>MAKE YOU HAPPY CRAZY</div>
+              <div className={styles.search}>
+                <input type="search" placeholder="Search Recipe" />
+                <button>Search</button>
+              </div>
+            </div>
+            <div className={styles.slide}>
+              <ul>
+                <li><img src="/bg1.jpg"/></li>
+                <li><img src="/bg2.jpg"/></li>
+                <li><img src="/bg3.jpg"/></li>
+                <li><img src="/bg4.jpg"/></li>
+              </ul>
             </div>
           </div>
         </div>
