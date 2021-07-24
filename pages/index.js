@@ -15,17 +15,23 @@ export default function Home() {
       </Head>
       <main className={styles.hero}>
         <div className={styles.main}>
-          <div className={styles.nav}>
-            <Link href="/">
-              <img src="/logo-white.png"></img>
-            </Link>
-            <div className={styles.menu}>
-              <Link href="/about"><div>ABOUT</div></Link>
-              <Link href="/"><div>RECIPE</div></Link>
-              <Link href="/"><div>CONTACT</div></Link>
+            <div className={styles.nav}>
+                <Link href="/">
+                  <img src="/logo-white.png" alt="crazy factory logo white version"></img>
+                </Link>
+                <div className={styles.menu}>
+                  <Link href="/about"><div>ABOUT</div></Link>
+                  <Link href="/"><div>RECIPE</div></Link>
+                  <Link href="/"><div>CONTACT</div></Link>
+                </div>
             </div>
-          </div>
-          <div className={styles.hero1}>
+            <div className={styles.slide}>
+              <ul className={styles.cbslideshow}>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
             <div className={styles.bgimg}>
               <div className={styles.bgtext}>MAKE YOU HAPPY CRAZY</div>
               <div className={styles.search}>
@@ -33,13 +39,7 @@ export default function Home() {
                 <button>Search</button>
               </div>
             </div>
-            <div className={styles.slide}>
-              <ul>
-                <li><img src="/bg1.jpg"/></li>
-                <li><img src="/bg2.jpg"/></li>
-                <li><img src="/bg3.jpg"/></li>
-                <li><img src="/bg4.jpg"/></li>
-              </ul>
+            <div className={styles.black}>
             </div>
           </div>
         </div>
