@@ -33,7 +33,7 @@ export default function Home() {
                 <li></li>
               </ul>
             <div className={styles.bgimg}>
-              <div className={styles.bgtext}>MAKE YOU HAPPY CRAZY</div>
+              <div className={styles.bgtext}>MAKE YOU HAPPY <p className={styles.crazy} data-text="CRAZY">CRAZY</p></div>
               <div className={styles.search}>
                 <input type="search" placeholder="Search Recipe" />
                 <button>Search</button>
